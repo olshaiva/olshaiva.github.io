@@ -1,0 +1,111 @@
+		#container{
+			width: 1100px;
+			margin: 0 auto;
+			padding: 10px;
+		}
+		body {
+			margin: 0;
+		}
+		#home {
+			width: 100%;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		#about {
+			width: 100%;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		#experience{
+			width: 100%;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		#contact {
+			width: 100%;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+		li {
+			float: left;
+		}
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		li a:hover {
+			background-color: grey;
+		}
+		.active {
+			background-color: purple;
+			color: white;
+		}
+		#icon {
+			text-decoration: none;
+			color: purple;
+			text-transform: uppercase;
+			font-family: "Verdana", serif;
+			font-size: 28px;
+		}
+		#nav {
+			display: inline-block;
+			float: right;
+		}
+		#infohome {
+			padding-top: 200px;
+			color: white;
+			font-family: "Arial", san-serif;
+		}
+		#infoabout {
+			margin-top: 200px;
+			color: white;
+			font-family: "Arial", san-serif;
+			width: 700px;
+			background-color: purple;
+		}
+		#photos {
+			width: 600px;
+			padding-top: 30px;
+		}
+		#photos img {
+			width: 400px;
+			margin: 20px 10px;
+		}
+		#paloroit {
+			width: 80%;
+		    background-color: white;
+		    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+		    margin-bottom: 10px;
+			text-align: center;
+			padding: 5px 5px;
+			font-style: italic;
+		}
+		form {
+			padding-top: 70px;
+		}
+		#media {
+			padding-top: 150px;
+		}
+		#aboutmedia {
+			padding-top: 270px;
+		}		
+		#exmedia {
+			padding-top: 50px;
+		}		
+		#contactmedia {
+			padding-top: 300px;
+		}
